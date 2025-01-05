@@ -21,8 +21,8 @@ composer require darshiltech/magento-bestseller-product-from-order
 ### 1. Clone the Repository
 ```bash
 cd <magento_root>/app/code
-mkdir -p DarshilTech/BestsellerProduct
-cd DarshilTech/BestsellerProduct
+mkdir -p DarshilTech/Bestsellers
+cd DarshilTech/Bestsellers
 git clone https://github.com/DarshilTech/magento-bestseller-product-from-order.git .
 ```
 
@@ -42,7 +42,7 @@ php bin/magento setup:static-content:deploy
 ## Developer Notes
 
 - **Namespace**: `DarshilTech`
-- **Module Name**: `BestsellerProduct`
+- **Module Name**: `Bestsellers`
 - Fully customizable via layout XML and templates.
 
 ## Contribution
