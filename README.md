@@ -13,6 +13,11 @@ A Magento 2 module to display bestseller products based on customer orders. This
 
 Follow the steps below to install the module in your Magento 2 store:
 
+### Install from the composer
+```bash
+composer require darshiltech/magento-bestseller-product-from-order
+```
+
 ### 1. Clone the Repository
 ```bash
 cd <magento_root>/app/code
