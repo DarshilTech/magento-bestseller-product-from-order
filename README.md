@@ -52,7 +52,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 If you encounter any issues or have questions, please reach out:
 
-- **Email**: support@darshiltech.com
+- **Email**: darshilmodi8141@gmail.com
 - **GitHub Issues**: [Submit an Issue](<https://github.com/DarshilTech/magento-bestseller-product-from-order/issues>)
 
 ---
