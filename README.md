@@ -7,7 +7,7 @@ A Magento 2 module to display bestseller products based on customer orders. This
 - Automatically calculates bestseller products based on order data.
 - Configurable options for time range and product selection.
 - Flexible integration with CMS pages, widgets, and blocks.
-- Supports customization to match your store's design.
+- It directly Show on magento admin dashboard.
 
 ## Installation
 
