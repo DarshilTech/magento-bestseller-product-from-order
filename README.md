@@ -23,7 +23,7 @@ git clone https://github.com/DarshilTech/magento-bestseller-product-from-order.g
 
 ### 2. Enable the Module
 ```bash
-php bin/magento module:enable DarshilTech_BestsellerProduct
+php bin/magento module:enable DarshilTech_Bestsellers
 php bin/magento setup:upgrade
 php bin/magento setup:di:compile
 php bin/magento cache:flush
