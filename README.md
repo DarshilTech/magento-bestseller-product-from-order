@@ -18,7 +18,7 @@ Follow the steps below to install the module in your Magento 2 store:
 cd <magento_root>/app/code
 mkdir -p DarshilTech/BestsellerProduct
 cd DarshilTech/BestsellerProduct
-git clone <repository_url> .
+git clone https://github.com/DarshilTech/magento-bestseller-product-from-order.git .
 ```
 
 ### 2. Enable the Module
