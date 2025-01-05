@@ -34,25 +34,6 @@ php bin/magento cache:flush
 php bin/magento setup:static-content:deploy
 ```
 
-## Configuration
-
-1. Navigate to the Magento Admin Panel.
-2. Go to **Stores > Configuration > DarshilTech > Bestseller Product**.
-3. Configure the module settings, such as time range and display options.
-
-## Usage
-
-### Adding a Widget
-1. Go to **Content > Widgets**.
-2. Add a new widget with type `Bestseller Product`.
-3. Configure widget options such as layout, time range, and category filter.
-
-### CMS Block Integration
-Use the following code snippet in your CMS block or page to display bestseller products:
-```php
-{{block class="DarshilTech\BestsellerProduct\Block\Bestseller" template="DarshilTech_BestsellerProduct::bestseller.phtml"}}
-```
-
 ## Developer Notes
 
 - **Namespace**: `DarshilTech`
@@ -72,7 +53,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 If you encounter any issues or have questions, please reach out:
 
 - **Email**: support@darshiltech.com
-- **GitHub Issues**: [Submit an Issue](<repository_issues_url>)
+- **GitHub Issues**: [Submit an Issue](<issues>)
 
 ---
 
