@@ -1,0 +1,30 @@
+<section id="dashboard-best-sellers" class="admin__page-section">
+<div class="dashboard-item-title">Best Sellers Product CSV Download</div>
+<div class="dashboard-totals dashboard-button">
+    <form action="<?= $block->getFormAction() ?>" method="post">
+        <input type="hidden" name="form_key" value="<?= $block->getFormKey() ?>" />
+        
+        <label for="start_date">Start Date:</label>
+        <input type="text" id="start_date" name="start_date" class="admin__control-text" data-ui-id="adminhtml-form-element-date" />
+        
+        <label for="end_date">End Date:</label>
+        <input type="text" id="end_date" name="end_date" class="admin__control-text" data-ui-id="adminhtml-form-element-date" />
+        
+        <button type="submit" class="action-primary">Download Best Sellers</button>
+    </form>
+</div>
+</section>
+
+<script>
+    require([
+        'jquery',
+        'mage/calendar'
+    ], function ($) {
+        $('#start_date, #end_date').calendar({
+            dateFormat: 'yy-mm-dd', // Set date format to match Magento's standard (YYYY-MM-DD)
+            changeMonth: true,
+            changeYear: true,
+            showButtonPanel: true
+        });
+    });
+</script>
